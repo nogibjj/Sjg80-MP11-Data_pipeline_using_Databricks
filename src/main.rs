@@ -34,12 +34,12 @@ fn main() -> Result<()> {
     // Insert data into the 'Customers' table (Create).
     let customer = Customer {
         customer_id: 1,
-        first_name: "John".to_string(),
+        first_name: "Shaila".to_string(),
         last_name: "Doe".to_string(),
         gender: "Male".to_string(),
         household_income: 75000.0,
         birthdate: "1990-05-15".to_string(),
-        phone_number: "555-123-4567".to_string(),
+        phone_number: "556-123-4567".to_string(),
         email: "john@example.com".to_string(),
     };
 
