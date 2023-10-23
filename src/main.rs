@@ -10,7 +10,7 @@ struct Car {
 
 fn main() -> Result<()> {
     // Open or create the SQLite database.
-    let conn = Connection::open("Car_Database.db")?;
+    let conn = Connection::open("basededatos.db")?;
 
     // Create a 'cars' table if it doesn't exist.
     conn.execute(
