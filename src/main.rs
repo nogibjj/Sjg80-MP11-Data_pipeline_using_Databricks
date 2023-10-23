@@ -39,7 +39,7 @@ fn main() -> Result<()> {
         gender: "Male".to_string(),
         household_income: 75000.0,
         birthdate: "1990-05-15".to_string(),
-        phone_number: "556-123-4567".to_string(),
+        phone_number: "5561234567".to_string(),
         email: "john@example.com".to_string(),
     };
 
