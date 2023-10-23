@@ -8,7 +8,7 @@ struct Customer {
     gender: String,
     household_income: f64,
     birthdate: String,
-    phone_number: String,
+    phone_number: Integer,
     email: String,
 }
 
