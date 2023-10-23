@@ -3,6 +3,9 @@ name = "rust-codespaces"
 version = "0.1.0"
 authors = ["Shaila Guereca"]
 edition = "2021"
+homepage = "https://github.com/nogibjj/Sjg80-IndividualProject2"
+repository = "https://github.com/nogibjj/Sjg80-IndividualProject2"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -15,3 +18,14 @@ predicates = "0.9"
 libc = "0.2"
 rust-bert = "0.20.0"
 
+[features]
+default = ["linkage"]
+bundled = ["sqlite3-sys/bundled"]
+linkage = ["sqlite3-sys/linkage"]
+
+[dependencies.sqlite3-sys]
+version = "0.15"
+default-features = false
+
+[dev-dependencies]
+temporary = "0.6"
