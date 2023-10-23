@@ -33,7 +33,7 @@ fn main() -> Result<()> {
 
     // Insert data into the 'Customers' table (Create).
     let customer = Customer {
-        customer_id: 1,
+        customer_id: 9,
         first_name: "Shaila".to_string(),
         last_name: "Doe".to_string(),
         gender: "Male".to_string(),
