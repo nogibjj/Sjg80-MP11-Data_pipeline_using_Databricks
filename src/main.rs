@@ -34,13 +34,13 @@ fn main() -> Result<()> {
     // Insert data into the 'Customers' table (Create).
     let customer = Customer {
         customer_id: 9,
-        first_name: "John".to_string(),
-        last_name: "Doe".to_string(),
+        first_name: "Francisco".to_string(),
+        last_name: "Martinez".to_string(),
         gender: "Male".to_string(),
         household_income: 75000.0,
         birthdate: "1990-05-15".to_string(),
         phone_number: "5561234567".to_string(),
-        email: "john@example.com".to_string(),
+        email: "francisco@example.com".to_string(),
     };
 
     conn.execute(
@@ -59,13 +59,13 @@ fn main() -> Result<()> {
     // Define the second customer
     let customer2 = Customer {
         customer_id: 11, // Use a unique ID
-        first_name: "Bob".to_string(),
-        last_name: "Smith".to_string(),
+        first_name: "Juan".to_string(),
+        last_name: "Valdez".to_string(),
         gender: "Male".to_string(),
         household_income: 75000.0,
         birthdate: "1995-06-20".to_string(),
-        phone_number: "5561234567".to_string(),
-        email: "bob@example.com".to_string(),
+        phone_number: "4311234567".to_string(),
+        email: "juan@example.com".to_string(),
     };
     
     // Insert the second customer into the 'Customers' table
