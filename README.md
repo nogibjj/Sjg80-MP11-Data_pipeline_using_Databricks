@@ -100,19 +100,15 @@ Navigate to the Project Directory:
 Change your working directory to the project's root folder:
 
    ```shell
-   Copy code
    cd Sjg80-IndividualProject2
    Build the Rust Binary:
    ```
-
 Build the Rust binary by running the following command:
 
    ```shell
-   Copy code
    cargo build --release
    This command compiles the source code and creates an optimized binary in the target/release/ directory.
    ```
-
 Run the Binary:
 
 Execute the Rust binary by entering the following command:
@@ -132,18 +128,17 @@ The project is integrated with GitHub Actions to automate various development pr
 
 Testing of Rust Code:
 
-The workflow runs automated tests for the Rust code to ensure that it behaves correctly.
+   The workflow runs automated tests for the Rust code to ensure that it behaves correctly.
 
 Building Rust Code:
 
-It compiles the Rust code to create the optimized binary for your project.
+   It compiles the Rust code to create the optimized binary for your project.
 
 Linting of Rust Code:
 
-The code quality and style are checked for adherence to best practices.
+   The code quality and style are checked for adherence to best practices.
 
-These automated processes are triggered on every push to the main branch, ensuring that the code remains reliable and performs as expected.
-
+   These automated processes are triggered on every push to the main branch, ensuring that the code remains reliable and performs as expected.
 
 ## How to run the program
 
@@ -152,9 +147,10 @@ To run the program, clone the repository and run the following command:
    ```
    cargo run
    ```
-
 This will create a new SQLite database and insert a new customer into the database. You can then read, update, and delete customers using the following commands:
 
+## GitHub Copilot Integration
+During the development of this project, GitHub Copilot was used to assist with code generation and improve code quality. GitHub Copilot is a powerful tool that helps you write Rust code more effectively.
 
 ## Video Demo
 
