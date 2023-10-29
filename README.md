@@ -37,7 +37,6 @@ To build the Rust binary, use the following command:
 ```bash
 cargo build --release
 
-
 # Rust CLI Binary with SQLite
 
 This project demonstrates how to create a Rust CLI binary with a SQLite database. The binary can be used to perform CRUD operations on the database.
@@ -78,6 +77,67 @@ The following dependencies are required to run this project:
 * `strip`
 * `upx`
 
+## Getting Started
+
+**Rust Codespaces** is a Rust Command-Line Interface (CLI) application designed to showcase Rust's capabilities in building efficient and interactive CLI tools. It integrates with an SQLite database, allowing users to perform CRUD operations on a "Customers" table. 
+
+The project demonstrates the structure of a typical Rust CLI application, error handling, SQLite integration, and the utilization of GitHub Copilot for code generation and improvement.
+
+### How to Run the Program
+
+1. **Clone the Repository:**
+
+   Begin by cloning this repository to your local machine:
+
+   ```shell
+   git clone https://github.com/nogibjj/Sjg80-IndividualProject2.git
+
+Navigate to the Project Directory:
+
+Change your working directory to the project's root folder:
+
+shell
+Copy code
+cd Sjg80-IndividualProject2
+Build the Rust Binary:
+
+Build the Rust binary by running the following command:
+
+shell
+Copy code
+cargo build --release
+This command compiles the source code and creates an optimized binary in the target/release/ directory.
+
+Run the Binary:
+
+Execute the Rust binary by entering the following command:
+
+shell
+Copy code
+./target/release/rust-codespaces
+Follow the command-line prompts to interact with the SQLite database and perform CRUD operations.
+
+Dependencies and How to Install Them
+The project relies on several Rust libraries as dependencies, which are specified in the Cargo.toml file. To install these dependencies, ensure you have Rust and Cargo installed on your system. If you don't, you can install them using the Rust installation guide.
+
+GitHub Actions
+The project is integrated with GitHub Actions to automate various development processes. The workflow file, rust.yml, defines the CI/CD pipeline. This workflow performs the following tasks:
+
+Testing of Rust Code:
+
+The workflow runs automated tests for the Rust code to ensure that it behaves correctly.
+
+Building Rust Code:
+
+It compiles the Rust code to create the optimized binary for your project.
+
+Linting of Rust Code:
+
+The code quality and style are checked for adherence to best practices.
+
+These automated processes are triggered on every push to the main branch, ensuring that the code remains reliable and performs as expected.
+
+
 ## How to run the program
 
 To run the program, clone the repository and run the following command:
@@ -88,14 +148,7 @@ cargo run
 This will create a new SQLite database and insert a new customer into the database. You can then read, update, and delete customers using the following commands:
 
 ```
-# Read all customers
-cargo run -- read
 
-# Update the household income of a customer
-cargo run -- update --customer-id 1 --household-income 85000
-
-# Delete a customer
-cargo run -- delete --customer-id 1
 ```
 
 # Video Demo
