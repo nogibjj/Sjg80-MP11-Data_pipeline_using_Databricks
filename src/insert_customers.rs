@@ -1,4 +1,4 @@
-use rusqlite::{params, Connection, Result, Error};
+use rusqlite::{params, Connection, Result};
 
 fn main() -> Result<()> {
     // Open or create the SQLite database.
@@ -18,8 +18,8 @@ fn main() -> Result<()> {
 
     let customer1 = Customer {
         customer_id: 10,
-        first_name: "Michael".to_string(),
-        last_name: "Jackson".to_string(),
+        first_name: "Lebron".to_string(),
+        last_name: "James".to_string(),
         gender: "Female".to_string(),
         household_income: 60000.0,
         birthdate: "2020-12-03".to_string(),
@@ -31,6 +31,7 @@ fn main() -> Result<()> {
     conn.execute(
         "INSERT INTO Customers (first_name, last_name, gender, household_income, birthdate, phone_number, email) VALUES (?, ?, ?, ?, ?, ?, ?)",
         params![
+            customer1.customer_id,
             customer1.first_name,
             customer1.last_name,
             customer1.gender,
@@ -43,8 +44,8 @@ fn main() -> Result<()> {
 
     let customer2 = Customer {
         customer_id: 11,
-        first_name: "Bob".to_string(),
-        last_name: "Sponge".to_string(),
+        first_name: "Adam".to_string(),
+        last_name: "Smith".to_string(),
         gender: "Male".to_string(),
         household_income: 75000.0,
         birthdate: "1940-06-20".to_string(),
@@ -56,6 +57,7 @@ fn main() -> Result<()> {
     conn.execute(
         "INSERT INTO Customers (first_name, last_name, gender, household_income, birthdate, phone_number, email) VALUES (?, ?, ?, ?, ?, ?, ?)",
         params![
+            customer2.customer_id,
             customer2.first_name,
             customer2.last_name,
             customer2.gender,
