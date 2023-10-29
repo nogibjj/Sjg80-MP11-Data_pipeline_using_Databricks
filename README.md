@@ -153,7 +153,7 @@ To run the program, clone the repository and run the following command:
 
 This is the initial database: 
 
-![Screenshot](images/Initial.png)
+![Initial_database](https://github.com/nogibjj/Sjg80-Rust-CLI-Binary-with-SQLite/assets/142270941/55a35c85-73d1-446d-a7de-be418d5382f0)
 
 This will create a new SQLite database and insert a new customer into the database. You can then read, update, and delete customers. 
 
