@@ -56,6 +56,33 @@ fn main() -> Result<()> {
         ],
     )?;
 
+    // Define the second customer
+    let customer2 = Customer {
+        customer_id: 11, // Use a unique ID
+        first_name: "Bob".to_string(),
+        last_name: "Smith".to_string(),
+        gender: "Male".to_string(),
+        household_income: 75000.0,
+        birthdate: "1995-06-20".to_string(),
+        phone_number: "5561234567".to_string(),
+        email: "bob@example.com".to_string(),
+    };
+    
+    // Insert the second customer into the 'Customers' table
+    conn.execute(
+        "INSERT INTO Customers (first_name, last_name, gender, household_income, birthdate, phone_number, email) VALUES (?, ?, ?, ?, ?, ?, ?)",
+        params![
+            customer2.first_name,
+            customer2.last_name,
+            customer2.gender,
+            customer2.household_income,
+            customer2.birthdate,
+            customer2.phone_number,
+            customer2.email
+        ],
+    )?;
+    
+
     // Read data from the 'Customers' table (Read).
     let mut stmt = conn.prepare("SELECT customer_id, first_name, last_name, gender, household_income, birthdate, phone_number, email FROM Customers")?;
     let customer_iter = stmt.query_map([], |row| {
