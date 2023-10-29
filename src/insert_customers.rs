@@ -6,7 +6,6 @@ fn main() -> Result<()> {
 
     #[derive(Debug)]
     struct Customer {
-        customer_id: i32,
         first_name: String,
         last_name: String,
         gender: String,
@@ -17,7 +16,6 @@ fn main() -> Result<()> {
     }
 
     let customer1 = Customer {
-        customer_id: 10,
         first_name: "Lebron".to_string(),
         last_name: "James".to_string(),
         gender: "Female".to_string(),
@@ -31,7 +29,6 @@ fn main() -> Result<()> {
     conn.execute(
         "INSERT INTO Customers (first_name, last_name, gender, household_income, birthdate, phone_number, email) VALUES (?, ?, ?, ?, ?, ?, ?)",
         params![
-            customer1.customer_id,
             customer1.first_name,
             customer1.last_name,
             customer1.gender,
@@ -43,7 +40,6 @@ fn main() -> Result<()> {
     )?;
 
     let customer2 = Customer {
-        customer_id: 11,
         first_name: "Adam".to_string(),
         last_name: "Smith".to_string(),
         gender: "Male".to_string(),
@@ -57,7 +53,6 @@ fn main() -> Result<()> {
     conn.execute(
         "INSERT INTO Customers (first_name, last_name, gender, household_income, birthdate, phone_number, email) VALUES (?, ?, ?, ?, ?, ?, ?)",
         params![
-            customer2.customer_id,
             customer2.first_name,
             customer2.last_name,
             customer2.gender,
