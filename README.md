@@ -231,9 +231,9 @@ This code showcases a basic example of interacting with an SQLite database in Ru
 ## GitHub Copilot Integration
 During the development of this project, GitHub Copilot was used to assist with code generation and improve code quality. GitHub Copilot is a powerful tool that helps you write Rust code more effectively.
 
-## Video Demo
+## 🎥 Video Demo
 
 The following YouTube link shows a clear, concise walkthrough and demonstration of the CLI binary:
 
-[YouTube link]
+[Video]((https://youtu.be/JBCxDqeYjJQ)))
 
