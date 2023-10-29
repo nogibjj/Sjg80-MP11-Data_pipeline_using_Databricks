@@ -16,8 +16,8 @@ fn main() -> Result<()> {
     }
 
     let customer1 = Customer {
-        first_name: "Britney".to_string(),
-        last_name: "Spears".to_string(),
+        first_name: "Katy".to_string(),
+        last_name: "Perry".to_string(),
         gender: "Female".to_string(),
         household_income: 60000.0,
         birthdate: "1994-12-03".to_string(),
@@ -40,8 +40,8 @@ fn main() -> Result<()> {
     )?;
 
     let customer2 = Customer {
-        first_name: "Paul".to_string(),
-        last_name: "Mckartey".to_string(),
+        first_name: "Bruno".to_string(),
+        last_name: "Mars".to_string(),
         gender: "Male".to_string(),
         household_income: 75000.0,
         birthdate: "1940-01-29".to_string(),
