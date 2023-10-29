@@ -4,19 +4,6 @@
 
 This Rust project showcases a Command-Line Interface (CLI) binary that interacts with an SQLite database, allowing you to perform CRUD (Create, Read, Update, Delete) operations on a "Customers" table.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Usage](#usage)
-- [Prerequisites](#prerequisites)
-- [Dependencies](#dependencies)
-- [Building the Binary](#building-the-binary)
-- [CRUD Operations](#crud-operations)
-- [GitHub Actions](#github-actions)
-- [GitHub Copilot Integration](#github-copilot-integration)
-- [Video Demo](#video-demo)
-- [License](#license)
-
 ## Introduction
 
 This Rust CLI binary is designed to work with an SQLite database that contains a "Customers" table. You can create, read, update, and delete customer records through the CLI. The project leverages the `rusqlite` crate for database interaction.
