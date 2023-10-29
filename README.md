@@ -150,6 +150,11 @@ To run the program, clone the repository and run the following command:
    ```
    cargo run
    ```
+
+This is the initial database: 
+
+![Screenshot](images/Captura de pantalla 2023-10-29 a la(s) 2.52.31 p.m..png)
+
 This will create a new SQLite database and insert a new customer into the database. You can then read, update, and delete customers. 
 
 If you want just to see how can ge just add 2 customers to de dataset we can do it by running the following command: 
@@ -157,6 +162,71 @@ If you want just to see how can ge just add 2 customers to de dataset we can do 
    ```
    cargo run --bin insert_customers
    ```
+
+This is the look of the database after running the command: 
+
+![Screenshot](images/Adding 2 new customers.png)
+
+Now this Rust code demonstrates basic CRUD (Create, Read, Update, Delete) operations on an SQLite database. Here's a step-by-step explanation of what this code does:
+
+   ```
+   cargo run --bin main
+   ```
+
+1. Import Required Dependencies:
+   - The code begins by importing the necessary dependencies, including `rusqlite`. `rusqlite` is a Rust library for working with SQLite databases.
+
+2. Define a `Customer` Struct:
+   - A `Customer` struct is defined to represent the structure of customer data. It includes fields for:
+     - `customer_id` (an integer)
+     - `first_name` (a string)
+     - `last_name` (a string)
+     - `gender` (a string)
+     - `household_income` (a floating-point number)
+     - `birthdate` (a string)
+     - `phone_number` (a string)
+     - `email` (a string)
+   - This struct is used to represent customer data in the code.
+
+3. Open or Create the SQLite Database:
+   - It opens or creates an SQLite database file named "Car_Database.db" using the `Connection::open` method. The `?` operator is used to handle potential errors.
+
+4. Create a 'Customers' Table:
+   - It executes an SQL command to create a table named 'Customers' if it doesn't already exist. The table schema includes the fields defined in the `Customer` struct.
+
+5. Insert Data into the 'Customers' Table (Create):
+   - Data for the first customer is created as a `Customer` struct.
+   - An SQL `INSERT` statement is executed to add this customer's information to the 'Customers' table using the `conn.execute` method. The `params!` macro is used to bind the values to the SQL statement.
+
+6. Define and Insert a Second Customer:
+   - A second customer, `customer2`, is defined using the `Customer` struct.
+   - Another SQL `INSERT` statement is executed to insert the second customer's information into the 'Customers' table.
+
+7. Read Data from the 'Customers' Table (Read):
+   - A SQL `SELECT` statement is prepared to retrieve customer data from the 'Customers' table using the `conn.prepare` method.
+   - Data is queried using the `query_map` method and mapped to instances of the `Customer` struct.
+
+8. Print Customers:
+   - The retrieved customer data is printed to the console.
+
+9. Update Data in the 'Customers' Table (Update):
+   - An SQL `UPDATE` statement is executed to modify the household_income of customers with the first name "John" and last name "Doe."
+
+10. Read Updated Data:
+   - After the update, the data for the updated customer is retrieved using a SQL `SELECT` statement and printed to the console.
+
+11. Delete Data from the 'Customers' Table (Delete):
+   - An SQL `DELETE` statement is executed to remove customers with the first name "Bruno" and last name "Mars" from the 'Customers' table.
+
+12. Verify Deletion:
+   - The number of customers remaining in the 'Customers' table is counted and printed to the console.
+
+13. Complete and Return Result:
+   - The `main` function returns a `Result` indicating successful execution or any encountered errors.
+
+This code showcases a basic example of interacting with an SQLite database in Rust and performing CRUD operations on customer data within the database.
+
+![Screenshot](images/CRUD operations.png) 
 
 ## GitHub Copilot Integration
 During the development of this project, GitHub Copilot was used to assist with code generation and improve code quality. GitHub Copilot is a powerful tool that helps you write Rust code more effectively.
