@@ -24,3 +24,8 @@ default-features = false
 
 [dev-dependencies]
 temporary = "0.6"
+
+[[bin]]
+name = "insert_customers"
+path = "src/insert_customers.rs"
+
