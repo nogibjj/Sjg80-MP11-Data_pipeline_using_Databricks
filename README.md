@@ -103,6 +103,7 @@ Change your working directory to the project's root folder:
    Copy code
    cd Sjg80-IndividualProject2
    Build the Rust Binary:
+   ```
 
 Build the Rust binary by running the following command:
 
@@ -110,6 +111,7 @@ Build the Rust binary by running the following command:
    Copy code
    cargo build --release
    This command compiles the source code and creates an optimized binary in the target/release/ directory.
+   ```
 
 Run the Binary:
 
@@ -118,6 +120,7 @@ Execute the Rust binary by entering the following command:
    ```shell
    Copy code
    ./target/release/rust-codespaces
+   ```
 
 Follow the command-line prompts to interact with the SQLite database and perform CRUD operations.
 
@@ -146,9 +149,10 @@ These automated processes are triggered on every push to the main branch, ensuri
 
 To run the program, clone the repository and run the following command:
 
-```
-cargo run
-```
+   ```
+   cargo run
+   ```
+
 This will create a new SQLite database and insert a new customer into the database. You can then read, update, and delete customers using the following commands:
 
 
