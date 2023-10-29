@@ -40,19 +40,19 @@ To build the Rust binary, use the following command:
 ```bash
 cargo build --release
 
-# Rust CLI Binary with SQLite
+## Rust CLI Binary with SQLite
 
 This project demonstrates how to create a Rust CLI binary with a SQLite database. The binary can be used to perform CRUD operations on the database.
 
-# How to use GitHub Copilot
+## How to use GitHub Copilot
 
 GitHub Copilot is a tool that can be used to generate Rust code. To use GitHub Copilot in this project, I installed the GitHub Copilot extension for Visual Studio Code. Once the extension was installed, I could generate Rust code by typing `// <tab>`.
 
-# SQLite Database
+## SQLite Database
 
 The SQLite database is a lightweight database that can be used to store data. To use the SQLite database in this project, I installed the `rusqlite` crate. The `rusqlite` crate provides a Rust interface to the SQLite database.
 
-# CRUD Operations
+## CRUD Operations
 
 The following CRUD operations are demonstrated in this project:
 
@@ -61,7 +61,7 @@ The following CRUD operations are demonstrated in this project:
 * **Update:** The `main()` function updates the household income of a customer in the database.
 * **Delete:** The `main()` function deletes a customer from the database.
 
-# Optimized Rust Binary
+## Optimized Rust Binary
 
 The following process is used to generate an optimized Rust binary:
 
@@ -123,7 +123,7 @@ Follow the command-line prompts to interact with the SQLite database and perform
 Dependencies and How to Install Them
 The project relies on several Rust libraries as dependencies, which are specified in the Cargo.toml file. To install these dependencies, ensure you have Rust and Cargo installed on your system. If you don't, you can install them using the Rust installation guide.
 
-GitHub Actions
+## GitHub Actions
 The project is integrated with GitHub Actions to automate various development processes. The workflow file, rust.yml, defines the CI/CD pipeline. This workflow performs the following tasks:
 
 Testing of Rust Code:
@@ -154,7 +154,7 @@ This will create a new SQLite database and insert a new customer into the databa
 
 ```
 
-# Video Demo
+## Video Demo
 
 The following YouTube link shows a clear, concise walkthrough and demonstration of the CLI binary:
 
