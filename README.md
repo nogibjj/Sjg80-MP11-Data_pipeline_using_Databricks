@@ -165,7 +165,7 @@ If you want just to see how can ge just add 2 customers to de dataset we can do 
 
 This is the look of the database after running the command: 
 
-![Screenshot](images/Adding_2_new_customers.png)
+![Screenshot](images/Adding_2new_customers.png)
 
 Now this Rust code demonstrates basic CRUD (Create, Read, Update, Delete) operations on an SQLite database. Here's a step-by-step explanation of what this code does:
 
