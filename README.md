@@ -235,6 +235,10 @@ During the development of this project, GitHub Copilot was used to assist with c
 
 The following YouTube link shows a clear, concise walkthrough and demonstration of the CLI binary
 
-[Video]((https://youtu.be/gwZlkOwrRzw)))
+[Video](https://youtu.be/gwZlkOwrRzw)
 
 [![Watch the video](https://youtu.be/JBCxDqeYjJQ)
+
+[![Video](https://youtu.be/JBCxDqeYjJQ)
+
+[![](https://markdown-videos-api.jorgenkh.no/youtube/{https://youtu.be/JBCxDqeYjJQ})](https://youtu.be/{https://youtu.be/JBCxDqeYjJQ})
