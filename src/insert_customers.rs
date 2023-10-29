@@ -16,13 +16,13 @@ fn main() -> Result<()> {
     }
 
     let customer1 = Customer {
-        first_name: "Lebron".to_string(),
-        last_name: "James".to_string(),
+        first_name: "Britney".to_string(),
+        last_name: "Spears".to_string(),
         gender: "Female".to_string(),
         household_income: 60000.0,
-        birthdate: "2020-12-03".to_string(),
-        phone_number: "5555476543".to_string(),
-        email: "michael@example.com".to_string(),
+        birthdate: "1994-12-03".to_string(),
+        phone_number: "2345476543".to_string(),
+        email: "britney@example.com".to_string(),
     };
 
     // Insert the first customer into the 'Customers' table
@@ -40,13 +40,13 @@ fn main() -> Result<()> {
     )?;
 
     let customer2 = Customer {
-        first_name: "Adam".to_string(),
-        last_name: "Smith".to_string(),
+        first_name: "Paul".to_string(),
+        last_name: "Mckartey".to_string(),
         gender: "Male".to_string(),
         household_income: 75000.0,
-        birthdate: "1940-06-20".to_string(),
-        phone_number: "5561204567".to_string(),
-        email: "bob@example.com".to_string(),
+        birthdate: "1940-01-29".to_string(),
+        phone_number: "1231204567".to_string(),
+        email: "paul@example.com".to_string(),
     };
 
     // Insert the second customer into the 'Customers' table
