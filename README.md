@@ -237,8 +237,3 @@ The following YouTube link shows a clear, concise walkthrough and demonstration 
 
 [Video](https://youtu.be/gwZlkOwrRzw)
 
-[![Watch the video](https://youtu.be/JBCxDqeYjJQ)
-
-[![Video](https://youtu.be/JBCxDqeYjJQ)
-
-[![](https://markdown-videos-api.jorgenkh.no/youtube/{https://youtu.be/JBCxDqeYjJQ})](https://youtu.be/{https://youtu.be/JBCxDqeYjJQ})
