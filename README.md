@@ -233,7 +233,7 @@ During the development of this project, GitHub Copilot was used to assist with c
 
 ## 🎥 Video Demo
 
-The following YouTube link shows a clear, concise walkthrough and demonstration of the CLI binary:
+The following YouTube link shows a clear, concise walkthrough and demonstration of the CLI binary
 
 [Video]((https://youtu.be/gwZlkOwrRzw)))
 
