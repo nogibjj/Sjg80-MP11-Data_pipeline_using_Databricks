@@ -1,5 +1,8 @@
 # Sjg80-RUSTbasic
 
+[![Rust](https://github.com/nogibjj/Sjg80-RUSTbasic/actions/workflows/rust.yml/badge.svg)](https://github.com/nogibjj/Sjg80-RUSTbasic/actions/workflows/rust.yml)
+[![Rust](https://github.com/nogibjj/Sjg80-RUSTbasic/actions/workflows/rust.yml/badge.svg)](https://github.com/nogibjj/Sjg80-RUSTbasic/actions/workflows/rust.yml)
+
 # Rust CLI Binary with SQLite
 
 This Rust project showcases a Command-Line Interface (CLI) binary that interacts with an SQLite database, allowing you to perform CRUD (Create, Read, Update, Delete) operations on a "Customers" table.
