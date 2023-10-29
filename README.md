@@ -99,14 +99,14 @@ Navigate to the Project Directory:
 
 Change your working directory to the project's root folder:
 
-shell
+```shell
 Copy code
 cd Sjg80-IndividualProject2
 Build the Rust Binary:
 
 Build the Rust binary by running the following command:
 
-shell
+```shell
 Copy code
 cargo build --release
 This command compiles the source code and creates an optimized binary in the target/release/ directory.
@@ -115,7 +115,7 @@ Run the Binary:
 
 Execute the Rust binary by entering the following command:
 
-shell
+```shell
 Copy code
 ./target/release/rust-codespaces
 Follow the command-line prompts to interact with the SQLite database and perform CRUD operations.
