@@ -101,16 +101,17 @@ Change your working directory to the project's root folder:
 
    ```shell
    cd Sjg80-IndividualProject2
-   Build the Rust Binary:
+   ```
   
 Build the Rust binary by running the following command:
 
    ```shell
    cargo build --release
-   This command compiles the source code and creates an optimized binary in the target/release/ directory.
+   ```
+
+This command compiles the source code and creates an optimized binary in the target/release/ directory.
   
 Run the Binary:
-
 Execute the Rust binary by entering the following command:
 
    ```shell
@@ -126,15 +127,15 @@ The project relies on several Rust libraries as dependencies, which are specifie
 ## GitHub Actions
 The project is integrated with GitHub Actions to automate various development processes. The workflow file, rust.yml, defines the CI/CD pipeline. This workflow performs the following tasks:
 
-Testing of Rust Code:
+-Testing of Rust Code:
 
    The workflow runs automated tests for the Rust code to ensure that it behaves correctly.
 
-Building Rust Code:
+-Building Rust Code:
 
    It compiles the Rust code to create the optimized binary for your project.
 
-Linting of Rust Code:
+-Linting of Rust Code:
 
    The code quality and style are checked for adherence to best practices.
 
