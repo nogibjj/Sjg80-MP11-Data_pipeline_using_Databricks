@@ -1,5 +1,9 @@
 use rusqlite::{params, Connection, Result};
 
+fn main() -> Result<()> {
+    // Open or create the SQLite database.
+    let conn = Connection::open("Car_Database.db")?;
+
 #[derive(Debug)]
 struct Customer {
     customer_id: i32,
