@@ -153,7 +153,7 @@ To run the program, clone the repository and run the following command:
 
 This is the initial database: 
 
-![Screenshot](images/Captura de pantalla 2023-10-29 a la(s) 2.52.31 p.m..png)
+![Screenshot](images/Initial.png)
 
 This will create a new SQLite database and insert a new customer into the database. You can then read, update, and delete customers. 
 
@@ -165,7 +165,7 @@ If you want just to see how can ge just add 2 customers to de dataset we can do 
 
 This is the look of the database after running the command: 
 
-![Screenshot](images/Adding 2 new customers.png)
+![Screenshot](images/Adding_2_new_customers.png)
 
 Now this Rust code demonstrates basic CRUD (Create, Read, Update, Delete) operations on an SQLite database. Here's a step-by-step explanation of what this code does:
 
@@ -226,7 +226,7 @@ Now this Rust code demonstrates basic CRUD (Create, Read, Update, Delete) operat
 
 This code showcases a basic example of interacting with an SQLite database in Rust and performing CRUD operations on customer data within the database.
 
-![Screenshot](images/CRUD operations.png) 
+![Screenshot](images/CRUD_operations.png) 
 
 ## GitHub Copilot Integration
 During the development of this project, GitHub Copilot was used to assist with code generation and improve code quality. GitHub Copilot is a powerful tool that helps you write Rust code more effectively.
