@@ -29,3 +29,7 @@ temporary = "0.6"
 name = "insert_customers"
 path = "src/insert_customers.rs"
 
+name = "main"
+path = "src/main.rs"
+
+
