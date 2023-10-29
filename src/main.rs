@@ -131,7 +131,7 @@ fn main() -> Result<()> {
     // Delete data from the 'Customers' table (Delete).
     conn.execute(
         "DELETE FROM Customers WHERE first_name = ? AND last_name = ?",
-        params!["Shaila", "Doe"],
+        params!["Bob", "Sponge"],
     )?;
 
     // Verify deletion.
