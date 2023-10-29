@@ -65,3 +65,4 @@ conn.execute(
         customer2.email
     ],
 )?;
+}
