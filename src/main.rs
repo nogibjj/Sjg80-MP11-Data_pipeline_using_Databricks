@@ -34,8 +34,8 @@ fn main() -> Result<()> {
     // Insert data into the 'Customers' table (Create).
     let customer = Customer {
         customer_id: 9,
-        first_name: "Francisco".to_string(),
-        last_name: "Martinez".to_string(),
+        first_name: "Calvin".to_string(),
+        last_name: "Harris".to_string(),
         gender: "Male".to_string(),
         household_income: 75000.0,
         birthdate: "1990-05-15".to_string(),
@@ -59,8 +59,8 @@ fn main() -> Result<()> {
     // Define the second customer
     let customer2 = Customer {
         customer_id: 11, // Use a unique ID
-        first_name: "Juan".to_string(),
-        last_name: "Valdez".to_string(),
+        first_name: "Leonardo".to_string(),
+        last_name: "Da Vince".to_string(),
         gender: "Male".to_string(),
         household_income: 75000.0,
         birthdate: "1995-06-20".to_string(),
@@ -131,7 +131,7 @@ fn main() -> Result<()> {
     // Delete data from the 'Customers' table (Delete).
     conn.execute(
         "DELETE FROM Customers WHERE first_name = ? AND last_name = ?",
-        params!["Bob", "Sponge"],
+        params!["Bruno", "Mars"],
     )?;
 
     // Verify deletion.
