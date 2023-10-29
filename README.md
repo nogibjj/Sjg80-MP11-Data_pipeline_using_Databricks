@@ -148,7 +148,13 @@ To run the program, clone the repository and run the following command:
    ```
    cargo run
    ```
-This will create a new SQLite database and insert a new customer into the database. You can then read, update, and delete customers using the following commands:
+This will create a new SQLite database and insert a new customer into the database. You can then read, update, and delete customers. 
+
+If you want just to see how can ge just add 2 customers to de dataset we can do it by running the following command: 
+
+   ```
+   cargo run --bin insert_customers
+   ```
 
 ## GitHub Copilot Integration
 During the development of this project, GitHub Copilot was used to assist with code generation and improve code quality. GitHub Copilot is a powerful tool that helps you write Rust code more effectively.
