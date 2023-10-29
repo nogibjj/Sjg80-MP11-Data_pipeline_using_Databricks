@@ -37,7 +37,7 @@ To install the Rust dependencies, add them to your `Cargo.toml` file and run `ca
 
 To build the Rust binary, use the following command:
 
-```bash
+bash
 cargo build --release
 
 ## Rust CLI Binary with SQLite
@@ -150,9 +150,6 @@ cargo run
 ```
 This will create a new SQLite database and insert a new customer into the database. You can then read, update, and delete customers using the following commands:
 
-```
-
-```
 
 ## Video Demo
 
