@@ -1,4 +1,4 @@
-# Sjg80-RUSTbasic
+# Sjg80-Rust CLI Binary with SQLite
 
 [![Rust](https://github.com/nogibjj/Sjg80-RUSTbasic/actions/workflows/rust.yml/badge.svg)](https://github.com/nogibjj/Sjg80-RUSTbasic/actions/workflows/rust.yml)
 [![Rust](https://github.com/nogibjj/Sjg80-RUSTbasic/actions/workflows/rust.yml/badge.svg)](https://github.com/nogibjj/Sjg80-RUSTbasic/actions/workflows/rust.yml)
