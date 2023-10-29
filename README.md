@@ -2,6 +2,8 @@
 
 [![Rust](https://github.com/nogibjj/Sjg80-RUSTbasic/actions/workflows/rust.yml/badge.svg)](https://github.com/nogibjj/Sjg80-RUSTbasic/actions/workflows/rust.yml)
 [![Rust](https://github.com/nogibjj/Sjg80-RUSTbasic/actions/workflows/rust.yml/badge.svg)](https://github.com/nogibjj/Sjg80-RUSTbasic/actions/workflows/rust.yml)
+[![Rust](https://github.com/nogibjj/Sjg80-Rust-CLI-Binary-with-SQLite/actions/workflows/rust.yml/badge.svg)](https://github.com/nogibjj/Sjg80-Rust-CLI-Binary-with-SQLite/actions/workflows/rust.yml)
+[![Rust](https://github.com/nogibjj/Sjg80-Rust-CLI-Binary-with-SQLite/actions/workflows/rust.yml/badge.svg)](https://github.com/nogibjj/Sjg80-Rust-CLI-Binary-with-SQLite/actions/workflows/rust.yml)
 
 # Rust CLI Binary with SQLite
 
