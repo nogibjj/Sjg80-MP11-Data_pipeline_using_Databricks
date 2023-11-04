@@ -1,20 +1,13 @@
-.PHONY: setup run clean
+install:
+	pip install --upgrade pip &&\
+		pip install -r requirements.txt
 
-setup:
-	@echo "Creating Python3 Virtual Environment..."
-	python3 -m venv venv
-	@echo "Activating Virtual Environment..."
-	. venv/bin/activate
-	@echo "Installing Dependencies..."
-	pip install -r requirements.txt
+container-lint:
+	docker run --rm -i hadolint/hadolint < Dockerfile
 
-run:
-	@echo "Starting Jupyter Notebook..."
-	. venv/bin/activate; \
-	jupyter notebook
+refactor: format lint
 
-clean:
-	@echo "Cleaning up..."
-	rm -rf venv
-	find . -type f -name '*.pyc' -delete
-	find . -type d -name '__pycache__' -exec rm -rf {} +
+deploy:
+	#deploy goes here
+		
+all: install lint test format deploy
