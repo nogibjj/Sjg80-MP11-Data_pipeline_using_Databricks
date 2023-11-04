@@ -1,12 +1,14 @@
 # Sjg80-PySpark Data Processing
 
-# 1.- What is PySpark?
+# What is PySpark?
    - PySpark is the Python library for Apache Spark. It provides an interface to work with Spark using Python. PySpark allows you to leverage the capabilities of Spark for distributed data processing while writing your code in Python, a popular and versatile programming language.
    - It includes various libraries and modules that facilitate working with distributed data and performing tasks like data manipulation, analysis, and machine learning at scale.
    - PySpark supports the distributed processing of data across a cluster of computers, making it well-suited for big data and parallel processing tasks.
    - It provides an easy-to-use API for data processing tasks and integrates with other Python libraries, making it a valuable tool for data scientists and engineers.
 
-# 2.- What is Spark SQL?
+![image](https://github.com/nogibjj/Sjg80-Mini-Project10-PySpark-Data-Processing/assets/142270941/f199a35d-67e1-4cbc-881a-1e59af74660a)
+
+# What is Spark SQL?
    - Spark SQL is a component of Apache Spark that provides a programming interface to work with structured and semi-structured data using SQL queries. It allows you to query structured data in Spark programs.
    - Spark SQL extends Spark's capabilities to work with structured data formats like Parquet, Avro, ORC, and JSON, as well as to connect to various data sources, including Hive, HBase, and relational databases.
    - It introduces a DataFrame API, which is similar to working with tables in a relational database. DataFrames are distributed collections of data organized into named columns, which makes them suitable for both data exploration and querying.
