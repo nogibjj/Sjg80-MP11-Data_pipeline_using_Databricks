@@ -62,6 +62,7 @@ To run the code, simply execute the Python script:
 1. open codespaces
 2. wait for environment to be installed
 3. run: python main.py
+```
 
 ## Results 
 The results will be printed to the console and saved to a markdown file named output.md.
