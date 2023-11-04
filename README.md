@@ -16,3 +16,48 @@
    - Spark SQL optimizes query execution by pushing down query processing to the underlying storage and minimizing data movement across the cluster. This makes it an efficient choice for working with large datasets.
 
 In summary, PySpark is the Python library for Apache Spark, which allows you to write Spark applications in Python. Spark SQL is a part of Apache Spark that facilitates working with structured data using SQL queries and DataFrames, making it easier to process, analyze, and query structured data within the Spark framework. Both PySpark and Spark SQL are valuable tools in the big data and data analytics domain.
+
+
+# PySpark Obesity Data Analysis
+
+This project uses PySpark to analyze a dataset containing information about individuals and their obesity levels. The dataset used is `ObesityDataSet.csv`.
+
+## Dataset
+
+The dataset contains the following columns:
+
+- Gender
+- Age
+- Height
+- Weight
+- family_history_with_overweight
+- FAVC
+- FCVC
+- NCP
+- CAEC
+- SMOKE
+- CH2O
+- SCC
+- FAF
+- TUE
+- CALC
+- MTRANS
+- NObeyesdad
+
+## Analysis
+
+The code performs the following operations:
+
+1. Filters the data to include only those records where Age > 30 and Weight < 70.
+2. Calculates the percentage of these people who smoke.
+3. Counts the number of females and males in the entire dataset.
+
+## Usage
+
+To run the code, simply execute the Python script:
+
+```bash
+python script.py
+
+## Results 
+The results will be printed to the console and saved to a markdown file named output.md.
