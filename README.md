@@ -1,5 +1,7 @@
 # Sjg80-PySpark Data Processing
 
+[![CI](https://github.com/nogibjj/Sjg80-Mini-Project10-PySpark-Data-Processing/actions/workflows/PySpark.yml/badge.svg)](https://github.com/nogibjj/Sjg80-Mini-Project10-PySpark-Data-Processing/actions/workflows/PySpark.yml)
+
 # What is PySpark?
    - PySpark is the Python library for Apache Spark. It provides an interface to work with Spark using Python. PySpark allows you to leverage the capabilities of Spark for distributed data processing while writing your code in Python, a popular and versatile programming language.
    - It includes various libraries and modules that facilitate working with distributed data and performing tasks like data manipulation, analysis, and machine learning at scale.
@@ -57,7 +59,7 @@ The code performs the following operations:
 To run the code, simply execute the Python script:
 
 ```bash
-python script.py
+python main.py
 
 ## Results 
 The results will be printed to the console and saved to a markdown file named output.md.
