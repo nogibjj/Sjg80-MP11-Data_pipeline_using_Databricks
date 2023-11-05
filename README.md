@@ -59,9 +59,10 @@ The code performs the following operations:
 To run the code, simply execute the Python script:
 
 ```bash
-1. open codespaces
-2. wait for environment to be installed
-3. run: python main.py
+1. Open codespaces
+2. Wait for environment to be installed
+3. Run: pip install pyspark
+3. Run: python main.py
 ```
 
 ## Results 
