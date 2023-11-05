@@ -64,6 +64,7 @@ To run the code, simply execute the Python script:
 3. Run: pip install pyspark
 3. Run: python main.py
 ```
+![image](https://github.com/nogibjj/Sjg80-Mini-Project10-PySpark-Data-Processing/assets/142270941/d04d480b-9aaf-4567-94ec-ad12607b6d8a)
 
 ## Results 
 The results will be printed to the console and saved to a markdown file named output.md.
