@@ -66,5 +66,9 @@ To run the code, simply execute the Python script:
 ```
 ![image](https://github.com/nogibjj/Sjg80-Mini-Project10-PySpark-Data-Processing/assets/142270941/d04d480b-9aaf-4567-94ec-ad12607b6d8a)
 
+Spark environment:
+
+![image](https://github.com/nogibjj/Sjg80-Mini-Project10-PySpark-Data-Processing/assets/142270941/8a71a324-67c7-4e6b-b695-8d93a35823fe)
+
 ## Results 
 The results will be printed to the console and saved to a markdown file named output.md.
