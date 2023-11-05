@@ -17,7 +17,7 @@ uvicorn==0.18.3
 # other dependencies
 databricks-sql-connector
 databricks
-pyspark
+pyspark==3.1.1
 requests
 tabulate
 findspark
