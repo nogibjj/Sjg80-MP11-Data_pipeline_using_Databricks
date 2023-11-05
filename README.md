@@ -78,7 +78,6 @@ The main function performs the following steps:
 5.	Capture Output: The script captures the output, which includes the DataFrame schema, the percentage of people who smoke, and the number of females and males.
 6.	Save Output: It saves the captured output to a Markdown file named "output.md."
 7.	Stop Spark Session: The Spark session is stopped to release resources.
-![image](https://github.com/nogibjj/Sjg80-Mini-Project10-PySpark-Data-Processing/assets/142270941/0e7ef846-254c-40f3-830f-552abea44321)
 
 ## Analysis
 
@@ -90,6 +89,7 @@ The code performs the following operations:
 
 ## Usage
 
+Ensure that you have set up Spark and have the dataset available. The script will produce output and save it to "output.md" for further analysis.
 To run the code, simply execute the Python script:
 
 ```bash
