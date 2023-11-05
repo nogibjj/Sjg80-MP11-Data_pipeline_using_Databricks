@@ -1,3 +1,5 @@
+import os
+import requests
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import avg, col,count, when
 import sys
