@@ -34,6 +34,34 @@ def main():
     # Load the data into a DataFrame
     df = spark.read.csv('data/ObesityDataSet.csv', header=True, inferSchema=True)
 
+    # Register the DataFrame as a SQL temporary view
+    df.createOrReplaceTempView("obesity_data")
+
+    # Use Spark SQL to filter the data where Age > 30 and Weight < 70
+    filtered_data = spark.sql("""
+    SELECT *
+    FROM obesity_data
+    WHERE Age > 30 AND Weight < 70
+    """)
+
+    # Use Spark SQL to calculate the percentage of people who smoke
+    smoke_count = spark.sql("""
+    SELECT COUNT(*) as count
+    FROM obesity_data
+    WHERE SMOKE = 'yes'
+    """).first().count
+
+    total_count = spark.sql("""
+    SELECT COUNT(*) as count
+    FROM obesity_data
+    """).first().count
+
+    # Use Spark SQL to calculate the average of Age, Height, and Weight
+    averages = spark.sql("""
+    SELECT AVG(Age) as avg_age, AVG(Height) as avg_height, AVG(Weight) as avg_weight
+    FROM obesity_data
+    """)
+   
     # Filter the data where Age > 30 and Weight < 70
     filtered_data = df.filter((df.Age > 30) & (df.Weight < 70))
 
