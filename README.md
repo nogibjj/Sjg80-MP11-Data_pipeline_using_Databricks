@@ -70,14 +70,18 @@ The main function performs the following steps:
 1.	Initialize a Spark Session: It sets up a Spark session to work with Spark.
 2.	Load Data: The script reads the dataset ("ObesityDataSet.csv") into a Spark DataFrame and registers it as a temporary SQL view.
 3.	Data Filtering and Aggregation with Spark SQL:
-•	It uses Spark SQL to filter data where Age is greater than 30 and Weight is less than 70.
+
+•It uses Spark SQL to filter data where Age is greater than 30 and Weight is less than 70.
 •	It calculates the percentage of people who smoke and the average age, height, and weight.
-4.	Data Filtering and Aggregation with DataFrame Operations:
+
+5.	Data Filtering and Aggregation with DataFrame Operations:
+
 •	It performs the same filtering and aggregation operations using DataFrame operations.
 •	It also counts the number of females and males in the dataset.
-5.	Capture Output: The script captures the output, which includes the DataFrame schema, the percentage of people who smoke, and the number of females and males.
-6.	Save Output: It saves the captured output to a Markdown file named "output.md."
-7.	Stop Spark Session: The Spark session is stopped to release resources.
+
+6.	Capture Output: The script captures the output, which includes the DataFrame schema, the percentage of people who smoke, and the number of females and males.
+7.	Save Output: It saves the captured output to a Markdown file named "output.md."
+8.	Stop Spark Session: The Spark session is stopped to release resources.
 
 ## Analysis
 
